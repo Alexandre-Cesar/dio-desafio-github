@@ -1,0 +1,31 @@
+$ls
+#mostra o que tem dentro de um diretorio
+$ls -a 
+#mostra os todos os arquivos de um diretorio
+$git add *
+#adiciona todos os arquivos para o repositorio git/cria git em repositorio
+
+
+$ ssh-keygen -t ed25519 -C a
+# cria chave
+$ cd /c/Users/alexa/.ssh/
+# muda o diretorio para onde a chave foi feita
+$ cat id_ed25519.pub
+# pega a chave criptografada (essa é a chave publica)
+$ eval $(ssh-agent -s)
+# inicia um processo  
+$ ssh-add id_ed2######
+# adiciona para o convidado o id principal e após digitar a senha o convidado tem acesso a seu projeto
+
+
+Meu token no GitHub foi criado dia 11-10-2021 :(
+o token é utilizado como conexão com o GitHub para copiar repositorios por exemplo
+
+$ git init 
+# inicia um repositorio git na sua pasta( ou area em que é realizado o trabalho) 
+$git clone  link de um site
+# adiciona arquivos para o seu repositorio local
+$git commit -m "texto"
+#envia alterações no arquivo para repositorio com anotações podendo especificar as mudanças feitas
+
+ 
