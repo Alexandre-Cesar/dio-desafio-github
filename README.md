@@ -1,4 +1,4 @@
-# Desafio DIO
+# Desafio DIO :green_book:
 Este é um repositorio feito para realizar o Desafio de projeto 
 também será utilizado para adicionar anotações e alguns outros projetos ao longo do bootcamp
 
