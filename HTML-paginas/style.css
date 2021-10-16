@@ -1,21 +1,58 @@
-#title, .st, .tp{
- color: blue;
-} 
+
 /* o # é utilizado para indicar que a mudança de estilo será feita em um tag com parametro  id*/
 /* o . é utilizado para indicar que a mudança de estilo será feita em um tag com parametro class*/
+                                 /*corpo */
+
+#title, .st, .tp{
+ color: blue;
+ padding-left: 15px;
+} 
+body{
+    background: #f8f8f8;
+    font-family: Verdana;
+    width: 900px;
+    margin: auto;
+}
 .tp{
     font-size: 16px;
     font-style: italic;
+    text-transform: uppercase;
+   
+}
+.pc{
+    margin-bottom: 15px;
+}
+.post{
+    background-color:rgba(184, 193, 196, 0.925);
+    border: 4px solid rgba(15, 15, 15, 0.404);
+    border-radius: 5px;
+    /*border é utilizado para adicionar borda e tem como aleterar cor, tamanho e forma da linha*/
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+
+}
+.lista{
+    list-style: none;
+    padding-left: 15px;
+}
+.lista li a{
+        text-decoration: none;
+    color:rgb(24, 28, 29);
 }
 /* declarações são utilizadas para realizar alterações especificas em uma tag, class ou id especifica */
+
+                                    /* imagens*/
 #mee{
     height: 250px;
     width: 200px;
+    border: 2px solid rgba(15, 15, 15, 0.404);
+    border-radius: 20%;
 }
-.post{
-    background-color:lightblue;
-    border: 4px solid blue;
-    padding: 10px;
-    margin: 10px;
+.pi{
+    margin-bottom: 15px;
+    width: 100%;
+
 
 }
+
