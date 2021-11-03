@@ -14,16 +14,86 @@
             background-color: aqua;
             margin: 5px;
         }
+        .flexcont{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+        }
+        .flexitem{
+            color: whitesmoke;
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            text-align: center;
+            margin: 5px;
+        }
+        .row{
+            flex-direction: row;
+        }
+        .row-reverse{
+            flex-direction: row-reverse;
+        }
+        .row-reverse li{
+            background-color: indianred;    
+        }
+        .coluna{
+            float: left;
+            flex-direction: column;
+        }
+        .coluna li{
+            background-color: blue;
+        }
+        .coluna-rev{
+            float: right;
+            flex-direction: column-reverse;
+        }
+        .coluna-rev li{
+            background-color: black;
+        }
     </style>
 </head>
 <body>
     <div  class="flex">
         <div class="item">item 1</div>
-        <div class="item">item2</div>
+        <div class="item">item 2</div>
         <div class="item">item 3</div>
 
     </div>
+    <ul class="flexcont row">
+        <li class="flexitem">a</li>
+        <li class="flexitem">b</li>
+        <li class="flexitem">c</li>
+        <li class="flexitem">d</li>
+        <li class="flexitem">e</li>
+    </ul> 
+    
+    <ul class="flexcont row-reverse">
+        <li class="flexitem">a</li>
+        <li class="flexitem">b</li>
+        <li class="flexitem">c</li>
+        <li class="flexitem">d</li>
+        <li class="flexitem">e</li>
+    </ul>
 
+    <ul class="flexcont coluna">
+        <li class="flexitem">a</li>
+        <li class="flexitem">b</li>
+        <li class="flexitem">c</li>
+        <li class="flexitem">d</li>
+        <li class="flexitem">e</li>
+    </ul>
+
+   
+    <ul class="flexcont coluna-rev">
+        <li class="flexitem">a</li>
+        <li class="flexitem">b</li>
+        <li class="flexitem">c</li>
+        <li class="flexitem">d</li>
+        <li class="flexitem">e</li>
+    </ul>
 </body>
 
 </html>

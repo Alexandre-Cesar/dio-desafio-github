@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" class th=device- class th, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            height: 150px;
+            border:solid 2px slategrey;
+            max-width: 300px;
+        }
+        .item{
+            font-size: 24px;
+            height: 50%;
+            text-align: center;
+            min-width: 100px;
+            line-height: 50px;
+        }
+        .no-wrap{
+            flex-wrap: nowrap;
+            /*no wrap é dafault*/
+        }
+        .wrap{
+            flex-wrap: wrap;
+        }
+        .wrap-reverse{
+         flex-wrap: wrap-reverse;   
+        }
+        .blue{
+            background-color: blue;
+            color: whitesmoke;
+        }
+        .green{
+            background-color: rgb(57, 148, 57);
+            color: white;
+        }
+        .orange{
+            color: white;
+            background-color: orangered;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>No wrap</h1>
+    <div class ="flex-container">
+        <div class ="item orange">1</div>
+        <div class ="item blue">2</div>
+        <div class ="item green">3</div>
+    </div>
+    <h1>wrap</h1>
+    <div class="flex-container wrap">
+        <div class ="item orange">1</div>
+        <div class ="item green">2</div>
+        <div class ="item blue">3</div>
+        <div class="item orange">4</div>
+        
+    </div>
+    <h1>wrap-reverse</h1>
+
+    <div class="flex-container wrap-reverse">
+        <div class ="item orange">1</div>
+        <div class ="item green">2</div>
+        <div class ="item blue">3</div>
+        <div class="item orange">4</div>
+    </div>
+</body>
+</html>
